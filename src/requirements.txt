@@ -1,0 +1,31 @@
+# browser_project 依赖清单
+# 需要 Python 3.10 (x64, Windows)
+#
+# 一键部署请运行 deploy.bat
+# 本文件仅作为依赖清单参考，不能直接 pip install -r
+#
+# 注意：qtwebview2 不在 PyPI，需从 GitHub 装，见 deploy.bat
+
+# ---- 核心引擎 ----
+browser-oxide
+
+# ---- UI 框架 ----
+PyQt6==6.11.0
+pywin32==312
+
+# ---- WebView2 内核（qtwebview2 从 GitHub 装）----
+qtpy==2.4.3
+pythonnet==3.1.0
+wryview==0.4.0
+cffi==2.1.1
+clr_loader==0.3.1
+packaging==26.3
+pycparser==3.0
+typing_extensions==4.16.0
+
+# ---- Windows API ----
+comtypes==1.4.17
+
+# ---- 系统监控 ----
+psutil==7.2.2
+watchdog==6.0.0

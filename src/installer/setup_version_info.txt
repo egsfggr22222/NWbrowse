@@ -1,0 +1,35 @@
+# UTF-8
+# Setup.exe 的版本资源。
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),
+    prodvers=(1, 0, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo(
+      [
+        StringTable(
+          '080404B0',
+          [
+            StringStruct('CompanyName', 'NWbrowser contributors'),
+            StringStruct('FileDescription', 'NWbrowser 1.0.0 安装程序'),
+            StringStruct('FileVersion', '1.0.0.0'),
+            StringStruct('InternalName', 'NWbrowser-Setup'),
+            StringStruct('LegalCopyright', 'Copyright (C) 2026 NWbrowser contributors. Licensed under the GNU General Public License v3.0 or later.'),
+            StringStruct('OriginalFilename', 'NWbrowser-1.0.0-Setup.exe'),
+            StringStruct('ProductName', 'NWbrowser'),
+            StringStruct('ProductVersion', '1.0.0.0'),
+            StringStruct('Comments', 'Installs NWbrowser 1.0.0. Free software under GPL-3.0-or-later.')
+          ]
+        )
+      ]
+    ),
+    VarFileInfo([VarStruct('Translation', [0x0804, 1200])])
+  ]
+)

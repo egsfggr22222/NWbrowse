@@ -1,0 +1,45 @@
+{
+    "windows":  {
+                    "default":  {
+                                    "theme_color":  "#2b2b2b",
+                                    "background_images":  [
+                                                              "{RES}/assets/backgrounds/spaceship.jpg"
+                                                          ],
+                                    "background_current":  "{RES}/assets/backgrounds/spaceship.jpg"
+                                }
+                },
+    "env":  {
+                "language":  "zh-CN",
+                "user_agent":  "",
+                "proxy":  "",
+                "incognito":  false,
+                "user_data_folder":  "",
+                "download_dir":  "",
+                "download_notify":  true,
+                "scan_downloads":  true,
+                "js_enabled":  true,
+                "context_menu":  false,
+                "hotkeys":  false,
+                "devtools":  false,
+                "autofill":  false,
+                "password_autosave":  false,
+                "tracking_prevention":  true,
+                "tracking_level":  1,
+                "smartscreen":  true,
+                "block_third_party_cookies":  false,
+                "insecure_content_allowed":  false,
+                "permission_camera":  0,
+                "permission_mic":  0,
+                "permission_geo":  0,
+                "permission_notify":  0,
+                "block_redirect":  false,
+                "block_popup":  true,
+                "block_ad":  false,
+                "save_cookie":  true,
+                "save_history":  true,
+                "history_days":  30,
+                "whitelist":  [
+
+                              ]
+            }
+}
